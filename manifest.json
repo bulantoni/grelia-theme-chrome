@@ -1,0 +1,42 @@
+{
+    "description": "Google Chrome Theme",
+    "version": "1.0",
+    "manifest_version": 2,
+    "name": "Grelia",
+    "theme": {
+        "colors": {
+            "frame": [191, 191, 191],
+            "frame_inactive": [191, 191, 191],
+            "frame_incognito": [200, 200, 200],
+            "frame_incognito_inactive": [200, 200, 200],
+            "toolbar": [200, 200, 200],
+            "tab_text": [77, 77, 77],
+            "tab_background_text": [77, 77, 77],
+            "bookmark_text": [77, 77, 77],
+            "nt_header": [255, 255, 255],
+            "ntp_background": [245, 245, 245],
+            "ntp_text": [245, 245, 245],
+            "button_background": [174, 174, 174, 0.1],
+            "mv_tiles": [255, 255, 255]
+        },
+        "images": {
+            "theme_frame": "images\/theme_frame.png",
+            "theme_tab_background": "images\/theme_tab_background.png",
+            "theme_ntp_background": "images\/theme_ntp_background.png",
+            "theme_toolbar": "images\/theme_toolbar.png"
+        },
+        "properties": {
+            "ntp_background_alignment": "top",
+            "ntp_background_repeat": "no-repeat",
+            "ntp_logo_alternate": 0
+        },
+        "tints": {
+            "buttons": [0, 0, 0.44],
+            "frame": [0, 0, 0.5],
+            "frame_inactive": [-1, -1, -1],
+            "frame_incognito": [-1, -1, -1],
+            "frame_incognito_inactive": [-1, -1, -1],
+            "background_tab": [0, 0, 0.66]
+        }
+    }
+}
